@@ -1,0 +1,21 @@
+/* Tailwind CSS base imports (v4 uses the new @import syntax via PostCSS plugin). */
+@import "tailwindcss";
+
+/* Baseline element resets and defaults can go here if needed. Keeping minimal for now. */
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Utility scaffold for readable layout (no styling yet) */
+main {
+  display: block;
+}

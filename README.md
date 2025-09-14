@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is Shrysapp — a premium personal portfolio skeleton built with [Next.js](https://nextjs.org) App Router, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
@@ -16,9 +16,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Key paths (App Router with `src/` directory):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Global layout: `src/app/layout.tsx`
+- Global styles: `src/app/globals.css`
+- Homepage: `src/app/page.tsx` (route: `/`)
+- About: `src/app/about/page.tsx` (route: `/about`)
+- Projects: `src/app/projects/page.tsx` (route: `/projects`)
+- Blog index: `src/app/blog/page.tsx` (route: `/blog`)
+
+Components:
+
+- Navbar: `src/components/Navbar.tsx`
+- Footer: `src/components/Footer.tsx`
+
+Tailwind CSS is enabled via PostCSS plugin. You can add utilities/styles in `src/app/globals.css`.
+
+## Notes for future Blog (MDX)
+
+- Structure is prepared for MDX-based posts. Consider using `@next/mdx` or `next-mdx-remote` later.
+- Suggested content location: `src/content/blog` or a nested route segment under `src/app/blog/`.
 
 ## Learn More
 
