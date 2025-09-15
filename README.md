@@ -1,4 +1,4 @@
-This is Shrysapp — a premium personal portfolio skeleton built with [Next.js](https://nextjs.org) App Router, TypeScript, and Tailwind CSS.
+This is Shrysapp — a simple personal portfolio skeleton built with [Next.js](https://nextjs.org) App Router, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
@@ -23,19 +23,14 @@ Key paths (App Router with `src/` directory):
 - Homepage: `src/app/page.tsx` (route: `/`)
 - About: `src/app/about/page.tsx` (route: `/about`)
 - Projects: `src/app/projects/page.tsx` (route: `/projects`)
-- Blog index: `src/app/blog/page.tsx` (route: `/blog`)
-
+ 
 Components:
 
 - Navbar: `src/components/Navbar.tsx`
 - Footer: `src/components/Footer.tsx`
+- Profile photo upload (client-only): `src/components/ProfilePhotoUpload.tsx`
 
 Tailwind CSS is enabled via PostCSS plugin. You can add utilities/styles in `src/app/globals.css`.
-
-## Notes for future Blog (MDX)
-
-- Structure is prepared for MDX-based posts. Consider using `@next/mdx` or `next-mdx-remote` later.
-- Suggested content location: `src/content/blog` or a nested route segment under `src/app/blog/`.
 
 ## Learn More
 

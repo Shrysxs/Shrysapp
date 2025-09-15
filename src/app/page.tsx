@@ -1,9 +1,14 @@
-// Homepage: Minimal landing with a placeholder headline.
+// Homepage: Intro + simple profile photo upload preview.
+import ProfilePhotoUpload from "@/components/ProfilePhotoUpload";
+
 export default function HomePage() {
   return (
     <section>
       <h1>Welcome to Shrysapp</h1>
-      <p>A premium personal portfolio for Shreyas — built with Next.js App Router.</p>
+      <p>Hi, I’m Shreyas. This is a simple, clean portfolio with an intro, profile photo upload preview, and projects.</p>
+      <div style={{ marginTop: "1rem" }}>
+        <ProfilePhotoUpload />
+      </div>
     </section>
   );
 }

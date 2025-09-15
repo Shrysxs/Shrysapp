@@ -21,9 +21,6 @@ export default function Navbar() {
         <li>
           <Link href="/projects" style={linkStyle("/projects")}>Projects</Link>
         </li>
-        <li>
-          <Link href="/blog" style={linkStyle("/blog")}>Blog</Link>
-        </li>
       </ul>
     </nav>
   );
